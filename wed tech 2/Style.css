@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: openSans,sans-serif;
+    background-color: blanchedalmond;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.user-profile{
+    background-color: rgb(196, 171, 105);
+    margin-top: 6%;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px, 30px, 90px;
+
+}
+.Profiletop{
+    background:linear-gradient(to right, #e2b22d,#dce000);
+    padding: 1rem;
+    text-align: center;
+    color: #000;
+
+}
+.Profileop image{
+
+    border-radius: 50%;
+    border: 5px solid#fff;
+}
+.Profileop .profile-info{
+
+margin-top: 1rem;
+
+}
+.Profileop{
+    padding: 3rem, 3rem, 1rem, 3rem;
+}
+.Profileop .profile-info{
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    box-shadow:rgba(50, 50, 93, 0.25) 0px,13px,27px,-5px rgba(0, 0, 0, 0.3)0px,8px,16px,8px;
+ transition: 0.5s ease;
+}
+.Profileop .profile-info .material-icons{
+    margin-right: 0.5rem;
+    color: grey;
+
+}
+.Profileop .profile-info :hover{
+    box-shadow:rgba(60,64,67,0.3),rgba(60,64,67,0.15) 0px, 1px, 16px,-18px ;
+}
+button{
+    margin-top: 2rem;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow:rgba(50, 50, 93, 0.25) 0px,13px,27px,-5px rgba(0, 0, 0, 0.3)0px,8px,16px,8px;
+    transition: 0.5 ease;
+}
+button:hover{
+    background: linear-gradient(to right, #e2b22d,#dce000);
+    color: rgb(253, 252, 252);
+}
